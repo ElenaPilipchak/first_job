@@ -1,50 +1,68 @@
 <html xmlns="http://www.w3.org/1999/html">
+
 <head>
-<title>html</title>
+    <meta charset="utf-8">
+
+    <title>html</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="js/vendor/jquery-ui-1.11.0.custom/jquery-ui.css">
+
+    <script src="js/vendor/jquery-1.10.2.min.js"></script>
+    <script src="js/vendor/jquery-ui-1.11.0.custom/external/jquery/jquery.js"></script>
+    <script src="js/vendor/jquery-ui-1.11.0.custom/jquery-ui.js"></script>
+
+    <script src="js/main.js"></script>
+
 </head>
 
-<body></body>
-<H2>registration</H2><br>
+<body>
+
+<div class="form-title">Registration</div>
+
 <form>
-<label>Name:<br><input placeholder="Name"></label><br><br>
-<label>Surname:<br><input placeholder="Surname"></label><br><br>
-<label>E-mail:<br><input placeholder="E-mail"></label><br><br>
-<label>Password:<br><input placeholder="Password"></label><br><br>
-<label>Repeat password:<br><input placeholder="Repeat password"></label><br><br>
-<!doctype html>
-    <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>jQuery UI Datepicker - Default functionality</title>
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui..">
-        <script src="js/vendor/jquery-1.10.2.min.js"></script>
-        <script src="js/main.js"></script>
-        <link rel="stylesheet" href="css/main.css">
-        <script>
-            $(function() {
-                $( "#datepicker" ).datepicker();
-            });
-        </script>
-    </head>
-    <body>
 
-    <p>Date of birth:<br> <input type="text" id="datepicker"></p>
+    <div class="title">
+        <span>Name:</span>
+        <input placeholder="Name" class="form-input"/>
+    </div>
+    <div class="title">
+        <span>Surname:</span>
+        <input placeholder="Surname" class="form-input"/>
+    </div>
+    <div class="title">
+        <span>E-mail:</span>
+        <input placeholder="E-mail" class="form-input"/>
+    </div>
+    <div class="title">
+        <span>Password:</span>
+        <input placeholder="Password" class="form-input"/>
+    </div>
+    <div class="title">
+        <span>Repeat password:</span>
+        <input placeholder="Repeat password" class="form-input"/>
+    </div>
+    <div class="title">
+        <span>Date of birth:</span>
+        <input type="text" id="datepicker" class="form-input"/>
+    </div>
+    <div class="title">
+        <span>Phone:</span>
+        <input placeholder="Number" class="form-input"/>
+    </div>
+    <div class="title">
+        <span>Country, town, region:</span>
+        <input placeholder="Country, town, region" class="form-input"/>
+    </div>
+    <div class="title">
+        <span>Address:</span>
+        <input placeholder="Address" class="form-input"/>
+    </div>
 
+    <button onclick="event.preventDefault(); saveFormData();" class="save-button">Save</button>
 
-    </body>
-    </html>
-
-    <br><br><br><br><br><br><br><br><br>
-<label>Phone:<br><input placeholder="Number"></label><br><br>
-<label>Country, town, region:<br><input placeholder="Country, town, region"></label><br><br>
-<label>Address:<br><input placeholder="Address"</label><br><br>
 </form>
-<br>
-<br>
-<a href="index.html"
-   onmouseout="C:\Users\1\WebstormProjects\First job.src=`img/button1.png`"
-   onmouseover="C:\Users\1\WebstormProjects\First job.src=`img/button1.png`">
-   <Img width="150" height="45" border="0" name="sign up"
-        src="img/button1.png" alt=""></a>
+
 </body>
+
 </html>

@@ -1,8 +1,7 @@
 $(function() {
-
     $( "#datepicker" ).datepicker();
-
-    var functionName = function(){
-        name.value
-    }
 });
+
+function saveFormData() {
+    alert("Это функция для сохранения")
+}
