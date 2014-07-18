@@ -3,13 +3,12 @@ form {
     height: 490px;
     position: absolute;
     top: 50%;
-    left: 25%;
+    right: 10%;
     margin-top: -225px;
     margin-left: -200px;
     border: 5px solid cornflowerblue;
     border-radius: 10px;
 }
-
 .title{
     float: left;
     width: inherit;
@@ -49,4 +48,10 @@ form {
     color: saddlebrown;
     font-style: italic;
     font-size: 65px;
+}
+
+.form-image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
