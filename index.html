@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>html</title>
+    <title>Тег textarea, атрибут required</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="js/vendor/jquery-ui-1.11.0.custom/jquery-ui.css">
     <script src="js/vendor/jquery-1.10.2.min.js"></script>
@@ -14,51 +15,56 @@
 
 <body>
 
+
 <div class="form-title">Registration</div>
 
 <form>
+    <form action="">
 
     <div class="title">
         <span>Name:</span>
-        <input placeholder="Name" class="form-input"/>
+        <input placeholder="Name" class="form-input" autofocus required={{}}/></td>
     </div>
     <div class="title">
         <span>Surname:</span>
-        <input placeholder="Surname" class="form-input"/>
+        <input placeholder="Surname" class="form-input" autofocus required="{{}}"/></td>
     </div>
     <div class="title">
         <span>E-mail:</span>
-        <input placeholder="E-mail" class="form-input"/>
+        <input placeholder="E-mail" class="form-input" autofocus required="{{}}" /></td>
     </div>
     <div class="title">
         <span>Password:</span>
-        <input placeholder="Password" class="form-input" input type="password"/>
+        <input placeholder="Password" class="form-input" input type="password" autofocus required="{{}}"/></td>
     </div>
     <div class="title">
         <span>Repeat password:</span>
-        <input placeholder="Repeat password" class="form-input" input type="password"/>
+        <input placeholder="Repeat password" class="form-input" input type="password" autofocus required="{{}}"/></td>
     </div>
     <div class="title">
         <span>Date of birth:</span>
-        <input type="text" id="datepicker" class="form-input"/>
+        <input type="text" id="datepicker" class="form-input" autofocus required="{{}}"/></td>
     </div>
     <div class="title">
         <span>Phone:</span>
-        <input placeholder="Number" class="form-input"/>
+        <input placeholder="Number" class="form-input"  autofocus required="{{}}"/></td>
     </div>
     <div class="title">
         <span>Country, town, region:</span>
-        <input placeholder="Country, town, region" class="form-input"/>
+        <input placeholder="Country, town, region" class="form-input" autofocus required="{{}}"/></td>
     </div>
     <div class="title">
         <span>Address:</span>
-        <input placeholder="Address" class="form-input"/>
+        <input placeholder="Address" class="form-input" autofocus required="{{}}"/></td>
     </div>
 
-    <button onclick="event.preventDefault(); saveFormData();" class="save-button">Save</button>
-
-</form>
-
+    <p><button onclick="event.preventDefault(); saveFormData();" class="save-button">Save</button></p>
+        <form action="textarea1.php" method="post">
+            <p><textarea rows="10" cols="45" name="text"></textarea></p>
+            <p><input type="submit" value="Отправить"></p>
+        </form>
+        
+     </form>
 </body>
 
 </html>
