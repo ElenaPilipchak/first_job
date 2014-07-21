@@ -64,3 +64,11 @@ body {
 input:required:invalid {
     border:1px solid red;
 }
+
+.text-area{
+    top: 50%;
+    position: absolute;
+    left: 10%;
+    height: 240px;
+    margin-top: -120px;
+}

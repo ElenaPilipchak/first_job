@@ -19,7 +19,6 @@
 <div class="form-title">Registration</div>
 
 <form>
-    <form action="">
 
     <div class="title">
         <span>Name:</span>
@@ -27,44 +26,45 @@
     </div>
     <div class="title">
         <span>Surname:</span>
-        <input placeholder="Surname" class="form-input" autofocus required="{{}}"/></td>
+        <input placeholder="Surname" class="form-input" required="{{}}"/></td>
     </div>
     <div class="title">
         <span>E-mail:</span>
-        <input placeholder="E-mail" class="form-input" autofocus required="{{}}" /></td>
+        <input placeholder="E-mail" class="form-input" required="{{}}" /></td>
     </div>
     <div class="title">
         <span>Password:</span>
-        <input placeholder="Password" class="form-input" input type="password" autofocus required="{{}}"/></td>
+        <input placeholder="Password" class="form-input" input type="password" required="{{}}"/></td>
     </div>
     <div class="title">
         <span>Repeat password:</span>
-        <input placeholder="Repeat password" class="form-input" input type="password" autofocus required="{{}}"/></td>
+        <input placeholder="Repeat password" class="form-input" input type="password" required="{{}}"/></td>
     </div>
     <div class="title">
         <span>Date of birth:</span>
-        <input type="text" id="datepicker" class="form-input" autofocus required="{{}}"/></td>
+        <input type="text" id="datepicker" class="form-input" required="{{}}"/></td>
     </div>
     <div class="title">
         <span>Phone:</span>
-        <input placeholder="Number" class="form-input"  autofocus required="{{}}"/></td>
+        <input placeholder="Number" class="form-input"  required="{{}}"/></td>
     </div>
     <div class="title">
         <span>Country, town, region:</span>
-        <input placeholder="Country, town, region" class="form-input" autofocus required="{{}}"/></td>
+        <input placeholder="Country, town, region" class="form-input" required="{{}}"/></td>
     </div>
     <div class="title">
         <span>Address:</span>
-        <input placeholder="Address" class="form-input" autofocus required="{{}}"/></td>
+        <input placeholder="Address" class="form-input" required="{{}}"/></td>
     </div>
 
-    <p><button onclick="event.preventDefault(); saveFormData();" class="save-button">Save</button></p>
-        <form action="textarea1.php" method="post">
-            <p><textarea rows="10" cols="45" name="text"></textarea></p>
-            <p><input type="submit" value="Отправить"></p>
-        </form>
-        
-     </form>
+    <button onclick="event.preventDefault(); saveFormData();" class="save-button">Save</button>
+
+</form>
+
+
+<textarea rows="10" cols="45" class="text-area" name="text"></textarea>
+
+
 </body>
 
 </html>
